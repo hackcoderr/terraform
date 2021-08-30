@@ -16,4 +16,3 @@ output "this_elb_dns_name" {
   value       = module.elb.this_elb_dns_name
 }
 
-© 2021 GitHub, Inc.
