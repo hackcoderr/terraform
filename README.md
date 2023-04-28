@@ -1,7 +1,39 @@
 # Terraform
-A Repository that contains all the staff related to [Terraform](https://www.terraform.io/)
+
+## Cheat Sheet
+### Basic commands
+``terraform init``
+
+``terraform plan``
+
+``terraform apply``
+
+``terraform destroy``
+ 
+``terraform output``
+
+### commands with variable
+``terraform plan -var-file=<filename.tfvars>``
+
+``terraform apply -var-file=<filename.tfvars>``
+
+``terraform destroy -var-file=<filename.tfvars>``
 
 
-## Index Table
-* AWS
-  * [VPC](https://github.com/hackcoderr/terraform/tree/master/aws/vpc)
+## Variables
+There is two type of variables.
+  1. simple value
+
+     * string
+     * number
+     * bool
+  2. Collection Variable
+      
+      * map
+      * list
+      * set, etc
+
+### Locals vs variables
+
+
+The main difference between locals and variables is their scope and visibility. Locals are only visible within the module or block where they are defined, while variables can be accessed and used throughout the entire configuration. Additionally, variables can be set from the command line or using environment variables, allowing for more flexibility when deploying infrastructure.
