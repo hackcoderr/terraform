@@ -7,3 +7,10 @@ loops/.terraform.lock.hcl
 loops/terraform.tfstate
 loops/terraform.tfstate.backup 
 .env
+provisioners/terraform.tfstate.backup 
+provisioners/terraform.tfstate
+provisioners/.terraform/
+provisioners/.terraform.lock.hcl
+provisioners/dev.tfvars
+
+
