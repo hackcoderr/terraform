@@ -2,4 +2,8 @@ variables/.terraform/
 variables/.terraform.lock.hcl
 variables/terraform.tfstate
 variables/terraform.tfstate.backup 
+loops/.terraform/
+loops/.terraform.lock.hcl
+loops/terraform.tfstate
+loops/terraform.tfstate.backup 
 .env
