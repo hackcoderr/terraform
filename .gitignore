@@ -2,15 +2,22 @@ variables/.terraform/
 variables/.terraform.lock.hcl
 variables/terraform.tfstate
 variables/terraform.tfstate.backup 
+
 loops/.terraform/
 loops/.terraform.lock.hcl
 loops/terraform.tfstate
 loops/terraform.tfstate.backup 
 .env
+
 provisioners/terraform.tfstate.backup 
 provisioners/terraform.tfstate
 provisioners/.terraform/
 provisioners/.terraform.lock.hcl
 provisioners/dev.tfvars
+
+dynamic_block/terraform.tfstate.backup
+dynamic_block/terraform.tfstate
+dynamic_block/.terraform/
+dynamic_block/.terraform.tfstate.backup
 
 

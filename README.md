@@ -71,3 +71,8 @@ The main difference between locals and variables is their scope and visibility. 
 2. destination
 3. content
 
+
+## Dynamic Block
+
+dynamic blocks allow you to define a nested block multiple times dynamically based on a variable value. This is useful when you need to create multiple similar resources with different settings.
+
